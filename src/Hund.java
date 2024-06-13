@@ -7,7 +7,7 @@ public class Hund extends Tier {
     }
 
     public Hund(String name, int alter) {
-        this(name);
+        super(name);
         this.alter = alter;
     }
 
