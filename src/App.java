@@ -1,6 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Hund hund = new Hund("Bello");
+        final Hund hund = new Hund("Bello");
+        hund.setName("Florian");
+
         System.out.println(hund.getName());
     }
 }
