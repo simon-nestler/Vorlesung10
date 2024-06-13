@@ -1,4 +1,4 @@
-abstract public class Tier {
+abstract public class Tier extends Lebewesen {
     protected String name;
 
     public Tier(String name) {

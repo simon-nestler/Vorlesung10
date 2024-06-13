@@ -8,4 +8,10 @@ public class Katze extends Tier {
     public void geraeuschMachen() {
         System.out.println("Miau! Miau!");
     }
+
+    @Override
+    public void setAlter(int alter) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setAlter'");
+    }
 }
