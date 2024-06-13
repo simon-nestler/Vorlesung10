@@ -5,9 +5,9 @@ public class App {
         hund.meineMethode2('e');
 
         StringBuilder sb = new StringBuilder("Hello");
-        System.out.println("Vorher: " + sb);
-        hund.meineMethode(sb);
-        System.out.println("Nachher: " + sb);
+        StringBuilder sb2 = new StringBuilder(sb);
+        hund.meineMethode(sb2);
+        sb2 = null;
 
         // System.out.println(hund.getName());
     }
