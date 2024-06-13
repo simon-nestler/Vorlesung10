@@ -5,8 +5,17 @@ public class Tier {
         this.name = name;
     }
 
-    public void meineMethode(char c) {
-        c = 'a';
+    public void meineMethode2(final char c) {
+        char b = c;
+
+        if (c == 'e') {
+            b = 'a';
+        }
+    }
+
+    public void meineMethode(StringBuilder text) {
+        text.append(" World!");
+        System.out.println("Innerhalb: " + text);
     }
 
     public void gerauschMachen() {
