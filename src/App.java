@@ -1,5 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Hund hund = new Hund("Bello");
+        System.out.println(hund.getName());
     }
 }
