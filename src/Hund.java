@@ -1,8 +1,7 @@
 public class Hund extends Tier {
-    private String name;
 
     public Hund(String name) {
-        this.name = name;
+
     }
 
     public String getName() {
