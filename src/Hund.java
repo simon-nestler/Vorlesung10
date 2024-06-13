@@ -1,4 +1,4 @@
-public class Hund {
+public class Hund extends Tier {
     private String name;
 
     public Hund(String name) {
@@ -6,6 +6,13 @@ public class Hund {
     }
 
     public String getName() {
+        gerauschMachen();
         return name;
+    }
+
+    @Override
+    public void gerauschMachen() {
+        super.gerauschMachen();
+        System.out.println("Der Hund bellt");
     }
 }
