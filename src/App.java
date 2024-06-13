@@ -5,5 +5,8 @@ public class App {
 
         tierpark.geraeuschMachen();
         tierpark.geraeuschMachen();
+
+        Hamster hamster = new Hamster();
+        hamster.geraeuschMachen();
     }
 }
