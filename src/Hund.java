@@ -4,14 +4,8 @@ public class Hund extends Tier {
         super(name);
     }
 
-    public String getName() {
-        gerauschMachen();
-        return name;
-    }
-
     @Override
-    public void gerauschMachen() {
-        super.gerauschMachen();
-        System.out.println("Der Hund bellt");
+    public void geraeuschMachen() {
+        System.out.println("Wau! Wau!");
     }
 }
